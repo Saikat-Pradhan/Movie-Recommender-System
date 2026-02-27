@@ -59,26 +59,35 @@ Built using Python, NLP, Scikit-learn, and Streamlit, and deployed online for re
 - Pandas 📊
 - NumPy 📐
 - Pickle 📦
+- TMDB API 🎬
 
-## TMDB API 🎬
+---
 
-### 📊 Dataset
+## 📊 Dataset
 
-Dataset used from Kaggle: TMDB 5000 Movie Dataset
+### Dataset used from Kaggle: TMDB 5000 Movie Dataset
 
 👉 https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 
-### Dataset Includes:
+### The project uses two datasets provided by TMDB (The Movie Database):
+
+#### 1️⃣ tmdb_5000_movies.csv
 
 - Movie Title
 - Genres
 - Keywords
-- Cast
-- Crew
 - Overview
+- Popularity
+- Vote Average
 - Movie ID
+- Release Date
+- Runtime
 
-These attributes are combined into textual tags used for similarity learning.
+#### 2️⃣ tmdb_5000_credits.csv
+
+- Movie ID
+- Cast Information
+- Crew Information (Director, Producer, etc.)
 
 ---
 
