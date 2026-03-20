@@ -48,7 +48,7 @@ Built using Python, NLP, Scikit-learn, and Streamlit, and deployed online for re
 
 ---
 
-##🧠 Technologies Used
+## 🧠 Technologies Used
 
 - Python 🐍
 - Streamlit 🌐
